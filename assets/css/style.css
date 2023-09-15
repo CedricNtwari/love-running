@@ -132,3 +132,15 @@ footer {
         margin-top: 77px;
     }
 }
+
+/* Media query: laptop and larger (992px and up) */
+@media screen and (min-width: 992px) {
+
+    /* Header */
+    #menu>li a:hover {
+        border-bottom: 1px solid #3a3a3a;
+    }
+
+    /* Main content */
+
+}
