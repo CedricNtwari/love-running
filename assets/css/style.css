@@ -94,7 +94,23 @@ main {
 
 /* Footer */
 footer {
-    background-color: orange;
+    background-color: #ffffff;
+}
+
+#social-network {
+    text-align: center;
+    padding: 1rem 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+
+}
+
+.fa-brands {
+    font-size: 160%;
+    padding: 5%;
+    color: #3a3a3a;
+
 }
 
 /* Media query: tablets and larger (768px and up) */
