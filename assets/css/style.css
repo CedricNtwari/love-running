@@ -10,7 +10,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100;8..144,200;8..144,300;8..144,400;8..144,500;8..144,600;8..144,700;8..144,800;8..144,900;8..144,1000&display=swap');
 
 /* Body */
-body{
+body {
     font-family: 'Roboto Flex', sans-serif;
     min-height: 100vh;
     display: flex;
@@ -21,7 +21,7 @@ body{
 }
 
 /* Header */
-header{
+header {
     background-color: #ffffff;
     padding: 0 1rem;
     position: fixed;
@@ -30,12 +30,34 @@ header{
     box-shadow: 0 2px 2px #3a3a3a;
 }
 
-h1{
+header a {
+    text-decoration: none;
+    color: inherit;
+}
+
+h1 {
     font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #252525;
+}
+
+#menu {
+    font-size: 110%;
+    letter-spacing: 4px;
+    list-style-type: none;
+}
+
+#menu > li {
+    padding-bottom: 1em;
+}
+
+.active{
+    border-bottom: 1px solid #3a3a3a;
 }
 
 /* Main content */
-main{
+main {
     background-color: lightblue;
 
     /* Make main element take up any surplus space to push footer down */
@@ -43,6 +65,6 @@ main{
 }
 
 /* Footer */
-footer{
+footer {
     background-color: orange;
 }
