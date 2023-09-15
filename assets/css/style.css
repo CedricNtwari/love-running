@@ -1,6 +1,5 @@
-
 /* Asterisk selecto to override default styles addes by the browser */
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -25,9 +24,12 @@ header {
     background-color: #ffffff;
     padding: 0 1rem;
     position: fixed;
-    z-index:99;
+    z-index: 99;
     width: 100%;
     box-shadow: 0 2px 2px #3a3a3a;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
 }
 
 header a {
@@ -49,25 +51,37 @@ h1 {
 }
 
 #menu > li {
-    padding-bottom: 1em;
+    padding-bottom: 1rem;
 }
 
-.active{
+.active {
     border-bottom: 1px solid #3a3a3a;
 }
+
 /* Navbar styles with dropdown toggle */
-nav{
+nav {
     position: absolute;
     background-color: #ffffff;
     width: 100%;
     left: 0;
-    padding: 0 1em;
+    padding: 0 1rem;
     box-shadow: 0 2px 2px #3a3a3a;
-    display:none;
-
+    display: none;
+    top: 100%;
 }
 
+/* Nav toggle */
+#nav-toggle:checked~nav {
+    display: block;
+}
 
+#nav-toggle {
+    display: none;
+}
+
+.nav-toggle-label {
+    font-size: 2rem;
+}
 
 /* Main content */
 main {
