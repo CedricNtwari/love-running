@@ -90,7 +90,6 @@ main {
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
     margin-top: 39px;
-    background-color: black;
 }
 
 /* Hero Section */
@@ -120,7 +119,7 @@ main {
 
 /* Footer */
 footer {
-    background-color: #ffffff;
+    background-color:gray;
 }
 
 #social-network {
