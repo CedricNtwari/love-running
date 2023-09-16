@@ -141,6 +141,23 @@ hr {
    margin-bottom: 20px;
 }
 
+#benefits-image{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#circle-cover-bg {
+    height: 90vw;
+    width: 90vw;
+    background: url("../images/running-image.webp") no-repeat top center/cover;
+    margin-botttom: 20px;
+    border-radius: 50%;
+    /* Make sure image will not go under 300px */
+    max-height: 300px;
+    max-width: 300px;
+}
+
 /* Footer */
 footer {
     background-color:gray;
