@@ -161,6 +161,37 @@ hr {
     max-width: 300px;
 }
 
+/* Meetups section */
+#times {
+    background: url("../images/pfaffik-badi.webp") no-repeat center/cover;
+
+    /* Handles responsivity without the need of a media query */
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#times div {
+    color: #fafafa;
+    background-color: rgba(0, 0, 0, .6);
+    padding: 15px;
+    text-align: center;
+    /* each div will wrap to fill the available space on its row */
+    flex-basis: 200px;
+    flex-grow: 1;
+    border: 2px solid #ffffff;
+}
+
+#times h3 {
+    color: #fafafa;
+    margin-bottom: 10px;
+}
+
+#meetups h2 {
+    text-align: center;
+    font-size: 280%;
+    margin-bottom: 20px;
+}
+
 /* Footer */
 footer {
     background-color: gray;
@@ -271,7 +302,7 @@ footer {
     #benefits :nth-child(2) {
         order: 1;
     }
-    
+
 }
 
 /* Media query: desktop and larger (1200px and up) */
