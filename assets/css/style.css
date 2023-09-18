@@ -192,6 +192,22 @@ hr {
     margin-bottom: 20px;
 }
 
+/* Gallery Page */
+
+#photos img {
+    width: 100%;
+    /* If img broken, alt can be readable */
+    line-height: 1rem;
+}
+
+#photos {
+    /* remove small space between images */
+    line-height: 0;
+}
+
+
+/* SignUp Page */
+
 /* Footer */
 footer {
     background-color: gray;
@@ -313,6 +329,5 @@ footer {
     /* Main content */
 
     /* Reasons Section */
-
 
 }
