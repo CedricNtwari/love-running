@@ -209,10 +209,6 @@ hr {
 /* SignUp Page */
 
 /* Footer */
-footer {
-    background-color: gray;
-}
-
 #social-network {
     text-align: center;
     padding: 1rem 0;
@@ -227,6 +223,16 @@ footer {
     padding: 5%;
     color: #3a3a3a;
 
+}
+
+/* Media query: large and landscape phones (576px and up) */
+@media screen and (min-width: 576px) {
+
+    /* Gallery Page */
+    #photos {
+        column-count: 2;
+        column-gap: 0;
+    }
 }
 
 
@@ -290,7 +296,13 @@ footer {
         text-align: end;
         align-self: flex-end;
     }
+
+    /* Gallery Page */
+    #photos {
+        column-count: 3;
+    }
 }
+
 
 /* Media query: laptop and larger (992px and up) */
 @media screen and (min-width: 992px) {
@@ -319,7 +331,13 @@ footer {
         order: 1;
     }
 
+    /* Gallery Page */
+    #photos {
+        column-count: 2;
+    }
 }
+
+
 
 /* Media query: desktop and larger (1200px and up) */
 @media screen and (min-width: 1200px) {
