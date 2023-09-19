@@ -277,7 +277,9 @@ hr {
     font-size: 160%;
     padding: 5%;
     color: #3a3a3a;
-
+}
+.fa-brands:hover {
+    color: #f16c6b;
 }
 
 /* Media query: large and landscape phones (576px and up) */
