@@ -90,6 +90,10 @@ main {
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
     margin-top: 39px;
+
+    /* Enable flex properties for child elements */
+    display:flex;
+    flex-direction: column;
 }
 
 /* Hero Section */
@@ -162,6 +166,10 @@ hr {
 }
 
 /* Meetups section */
+#meetups {
+    margin: 20px 1rem;
+}
+
 #times {
     background: url("../images/pfaffik-badi.webp") no-repeat center/cover;
 
@@ -186,6 +194,10 @@ hr {
     margin-bottom: 10px;
 }
 
+#times p {
+    color: #bebaba;
+}
+
 #meetups h2 {
     text-align: center;
     font-size: 280%;
@@ -205,19 +217,50 @@ hr {
     line-height: 0;
 }
 
-
 /* SignUp Page */
 #signup {
-    background: url("../images/signup-image.webp") no-repeat center center/cover;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+    background: url("../images/signup-image.webp");
+    background-size: cover;
+    background-position: 75%;
+    flex-grow: 1;
+}
 
+#signup h2 {
+    color: #ffffff;
+    padding-bottom: 20px;
 }
 
 #signup-form {
-    padding-bottom: 10px;
+    margin: 20px 10%;
+    color: #dddbdb;
+    padding: 30px;
+    background-color: rgba(60,60,60,0.5);
+    height: 80vh;
+}
+
+.text-input{
+    background: transparent;
+    border: 1px solid #dddbdb;
+    border-radius: 2px;
+    width: 100%;
+    height: 25px;
+    padding: 0 5px;
+    margin: 5px 0 20px 0;
+}
+
+.radio-buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.join-button{
+    border-radius: 10px;
+    background-color: #454b1b;
+    color: #fafafa;
+    font-size: 100%;
+    padding: 15px 32px;
+    margin-top: 20px;
 }
 
 /* Footer */
@@ -292,6 +335,10 @@ hr {
     }
 
     /* Reasons Section */
+
+    #reasons {
+    margin: 0;
+    }
     #benefits-physical,
     #benefits-mental {
         display: flex;
@@ -313,6 +360,30 @@ hr {
     #photos {
         column-count: 3;
     }
+
+    /* Signup page */
+
+    #signup {
+        background-position: center;
+        position: relative;
+    }
+    #signup-form {
+    max-width: 400px;
+    position: absolute;
+    top: 150px;
+    left: 10%;
+    height: 50vh;
+    }
+
+    .text-input:hover {
+        border-color: #f16c6b;
+    }
+
+    .join-button:hover {
+        background-color: #fafafa;
+        color: #454b1b;
+    }
+
 }
 
 
@@ -330,8 +401,6 @@ hr {
     #reasons>h2 {
         text-align: center;
         padding: 20px;
-        ;
-
     }
 
     #benefits {
