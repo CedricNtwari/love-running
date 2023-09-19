@@ -207,6 +207,18 @@ hr {
 
 
 /* SignUp Page */
+#signup {
+    background: url("../images/signup-image.webp") no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+#signup-form {
+    padding-bottom: 10px;
+}
 
 /* Footer */
 #social-network {
@@ -333,7 +345,7 @@ hr {
 
     /* Gallery Page */
     #photos {
-        column-count: 2;
+        column-count: 3;
     }
 }
 
