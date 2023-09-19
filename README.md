@@ -35,6 +35,18 @@ This project is hosted hosting platform on GitHub.
 - The site is deployed to GitHub pages.
 - The live link can be found here: https://cedricntwari.github.io/love-running/index.html
 
+## Key topics covered here
+
+- **Building a website**
+- **Media Queries**
+- **Responsiveness**
+- **Site-Specific Content**
+- **Manually Testing**
+- **Code Layout**
+- **Directory Structure**
+- **Navigation**
+- **Accessibility**
+
 ## Codeanywhere Reminders
 
 To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
