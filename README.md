@@ -1,10 +1,39 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Love Running - Readme Summary
 
-Welcome,
+Love Running is a platform designed to motivate individuals to participate in group runs in Pfäffikon SZ, Switzerland. The project aims to encourage runners seeking social interaction and fitness. It provides information on meetups, benefits, and registration.
 
-This is the Code Institute student template for Codeanywhere. If you are using Gitpod then you need [this template](https://github.com/Code-Institute-Org/gitpod-full-template) instead.  We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+Built only with HTML & CSS.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **August 30th, 2023**
+## Features
+
+- **Navigation Bar** : A responsive bar for easy site navigation across all pages.
+
+- **Landing Page**: Features an eye-catching image overlay to showcase the site's applicability.
+
+- **Club Section**: Highlights the benefits of joining meetups and embracing running as a form of exercise.
+
+- **Meetup Times Section**: Displays meetup schedules, locations, and run lengths, regularly updated.
+
+- **Footer**: Contains links to Love Running's social media profiles, promoting user engagement.
+
+- **Gallery**: Offers visual insights into the organization's events.
+
+- **Sign Up Page**: Allows users to join Love Running, specifying running preferences.
+
+### Validator Testing
+
+- HTML
+  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
+- CSS
+
+  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
+
+  ## Deployment
+
+This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub)
+
+- The site was deployed to GitHub pages.
+  The live link can be found here: https://cedricntwari.github.io/love-running/index.html
 
 ## Codeanywhere Reminders
 
